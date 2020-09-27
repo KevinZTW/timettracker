@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* My code start */
+.App{
+  display:flex;
+
+  
+}
+Header{
+  width:15%;
+}
+
+
+.top-menu{
+  height: 1000px;
+  background :black;
+  color:white;
+  display:flex;
+  flex-direction: column;
+}
+
+.top-menu >div {
+  padding:20px;
+  font-size:18px
+
+}
+
+/* This part is for the Track page */
+.track{
+  padding-left:10px
+}
+.track-title{
+  display:flex;
+  justify-content: flex-start;
+
+}
+.track-form{
+  display:flex;
+}
+.track-input{
+  font-size:20px;
+}
+
+.act-button{
+  background:black;
+  border:none;
+  color:white;
+  margin-left:10px;
+}
